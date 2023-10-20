@@ -7,7 +7,7 @@ jobs:
   register:
     name: Package, Publish, and Register
     runs-on:
-    - self-hosted
+    - ubuntu-latest
     steps:
     - id: checkout
       uses: actions/checkout@v2
