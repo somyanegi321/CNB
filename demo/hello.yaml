@@ -14,7 +14,7 @@ spec:
       terminationGracePeriodSeconds: 5
       containers:
       - name: server
-        image: somyanegi/cnb:sha-291e5af
+        image: somyanegi/cnb:sha-cfa3a69
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
